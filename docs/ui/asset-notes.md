@@ -2,6 +2,14 @@
 
 两张场景使用 ImageGen 内置工具生成，保留独立图片作为页面美术，实际 UI 由 React 与 CSS 绘制。
 
+## 新增人物与地图参考（尚未接入界面）
+
+- 沈青禾立绘：`src/assets/shen-qinghe-v1.png`，1024×1536，带Alpha通道。生成记录见 [沈青禾提示词](shen-qinghe-v1.prompt.md)。
+- 主角无尘立绘：`src/assets/wuchen-v1.png`，1024×1536，带Alpha通道。生成记录见 [无尘提示词](wuchen-v1.prompt.md)。
+- 苍梧界世界地图UI效果图：`docs/ui/world-map-v1.png`，用于布局与美术方向参考；生成记录见 [世界地图提示词](world-map-v1.prompt.md)。图中文字与解锁状态不是实现依据。
+
+以上均使用内置ImageGen生成；人物透明边缘包含半透明像素。地图是完整UI参考图，正式实现仍需独立底图和真实组件。
+
 ## 修炼场景
 
 文件：`src/assets/cultivation-landscape.png`。
