@@ -1,0 +1,18 @@
+# Local IDE settings
+.idea/
+
+# Dependencies and build outputs
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Office temporary lock files
+~$*.docx
